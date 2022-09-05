@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(162, 185, 247);
+}
+
+h1{
+    text-align: center;
+}
+
+table, .config, #time{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+    margin: 30px auto;
+}
+
+table td{
+    border: 1px solid #000;
+    height: 166px;
+    width: 166px;
+    text-align: center;
+    font-size: 96px;
+}
+
+.config, #time{
+    text-align: center;
+    border: none;            
+    margin: 30px auto;
+}
+
+.config span{
+    background-color: lightgrey;
+    border: 1px solid lightgray;
+    padding: 8px 9px;
+}
+
+.config input{
+    padding: 10px;
+    max-width: 190px;
+}
+
+.config button{
+    padding: 10px 15px;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+.message{
+    color: rgb(179, 19, 19);
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
